@@ -12,7 +12,7 @@ from speechset_lint.errors import (
 from speechset_lint.manifest import Row, load_manifest
 from speechset_lint.presets import PRESETS, Preset
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 __all__ = [
     "PRESETS",
