@@ -4,6 +4,13 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+## [0.2.0] - 2026-11-17
+
+### Changed
+- Require Python 3.11+ (3.10 is EOL); bump filelock to >=4.2.1 (security).
+
 ## [0.1.0] - 2026-11-17
 
 ### Added
@@ -17,5 +24,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - English and Korean screens (`--lang`, `SPEECHSET_LINT_LANG`, locale variables).
 - Python API: `check()`, `load_manifest()`, `write_clean()`, `PRESETS`.
 
-[Unreleased]: https://github.com/LeeGyeongPil/speechset-lint/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/LeeGyeongPil/speechset-lint/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/LeeGyeongPil/speechset-lint/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/LeeGyeongPil/speechset-lint/releases/tag/v0.1.0

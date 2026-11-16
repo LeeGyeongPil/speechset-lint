@@ -25,7 +25,7 @@ uv tool install "speechset-lint[tokens] @ git+https://github.com/LeeGyeongPil/sp
 ```
 PyPI에 올라가면 `pip install speechset-lint`(추가 기능: `pip install "speechset-lint[tokens]"`)로도 설치할 수 있습니다.
 
-Python 3.10 이상이 필요합니다. 오디오 읽기는 `soundfile`을 쓰며 대부분의 플랫폼에서 libsndfile이 함께 들어 있습니다. 최소 리눅스 이미지에서 `import soundfile`이 실패하면 `libsndfile1`을 설치하세요.
+Python 3.11 이상이 필요합니다. 오디오 읽기는 `soundfile`을 쓰며 대부분의 플랫폼에서 libsndfile이 함께 들어 있습니다. 최소 리눅스 이미지에서 `import soundfile`이 실패하면 `libsndfile1`을 설치하세요.
 
 ## 빠르게 시작하기
 ```bash
