@@ -23,7 +23,7 @@ uv tool install git+https://github.com/LeeGyeongPil/speechset-lint
 # optional: exact label token counts from a tokenizer.json
 uv tool install "speechset-lint[tokens] @ git+https://github.com/LeeGyeongPil/speechset-lint"
 ```
-Or from PyPI once published: `pip install speechset-lint` (extra: `pip install "speechset-lint[tokens]"`).
+Or from PyPI: `pip install speechset-lint` (extra: `pip install "speechset-lint[tokens]"`).
 
 Requires Python 3.11 or newer. Reading audio uses `soundfile`, which bundles libsndfile on common platforms; on a minimal Linux image install `libsndfile1` if `import soundfile` fails.
 
