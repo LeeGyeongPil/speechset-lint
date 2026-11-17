@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "speechset-lint"
-version = "0.2.0"
+version = "0.2.1"
 description = "Pre-flight lint for speech fine-tuning manifests (Whisper, wav2vec2 CTC, TTS): NeMo JSONL, HF audiofolder, LJSpeech."
 readme = "README.md"
 requires-python = ">=3.11"
